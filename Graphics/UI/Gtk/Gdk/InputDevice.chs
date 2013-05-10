@@ -128,7 +128,9 @@ import Graphics.UI.Gtk.Gdk.Keys (KeyVal)
 {#import Graphics.UI.Gtk.Types#}
 {#import Graphics.UI.Gtk.Signals#}
 {#import Graphics.UI.Gtk.Gdk.Enums#}
+#if GTK_MAJOR_VERSION < 3 
 import Graphics.UI.Gtk.General.Structs (DeviceAxis(..))
+#endif
 
 
 {# context lib="gdk" prefix="gdk" #}

@@ -84,22 +84,10 @@ module Graphics.UI.Gtk.Types (
   toRecentManager, 
   mkRecentManager, unRecentManager,
   castToRecentManager, gTypeRecentManager,
-  Drawable(Drawable), DrawableClass,
-  toDrawable, 
-  mkDrawable, unDrawable,
-  castToDrawable, gTypeDrawable,
   DrawWindow(DrawWindow), DrawWindowClass,
   toDrawWindow, 
   mkDrawWindow, unDrawWindow,
   castToDrawWindow, gTypeDrawWindow,
-  Pixmap(Pixmap), PixmapClass,
-  toPixmap, 
-  mkPixmap, unPixmap,
-  castToPixmap, gTypePixmap,
-  Colormap(Colormap), ColormapClass,
-  toColormap, 
-  mkColormap, unColormap,
-  castToColormap, gTypeColormap,
   Screen(Screen), ScreenClass,
   toScreen, 
   mkScreen, unScreen,
@@ -168,10 +156,6 @@ module Graphics.UI.Gtk.Types (
   toTextMark, 
   mkTextMark, unTextMark,
   castToTextMark, gTypeTextMark,
-  Object(Object), ObjectClass,
-  toObject, 
-  mkObject, unObject,
-  castToObject, gTypeObject,
   RecentFilter(RecentFilter), RecentFilterClass,
   toRecentFilter, 
   mkRecentFilter, unRecentFilter,
@@ -196,10 +180,6 @@ module Graphics.UI.Gtk.Types (
   toAccelLabel, 
   mkAccelLabel, unAccelLabel,
   castToAccelLabel, gTypeAccelLabel,
-  TipsQuery(TipsQuery), TipsQueryClass,
-  toTipsQuery, 
-  mkTipsQuery, unTipsQuery,
-  castToTipsQuery, gTypeTipsQuery,
   Arrow(Arrow), ArrowClass,
   toArrow, 
   mkArrow, unArrow,
@@ -272,14 +252,6 @@ module Graphics.UI.Gtk.Types (
   toFontButton, 
   mkFontButton, unFontButton,
   castToFontButton, gTypeFontButton,
-  OptionMenu(OptionMenu), OptionMenuClass,
-  toOptionMenu, 
-  mkOptionMenu, unOptionMenu,
-  castToOptionMenu, gTypeOptionMenu,
-  Item(Item), ItemClass,
-  toItem, 
-  mkItem, unItem,
-  castToItem, gTypeItem,
   MenuItem(MenuItem), MenuItemClass,
   toMenuItem, 
   mkMenuItem, unMenuItem,
@@ -304,10 +276,6 @@ module Graphics.UI.Gtk.Types (
   toSeparatorMenuItem, 
   mkSeparatorMenuItem, unSeparatorMenuItem,
   castToSeparatorMenuItem, gTypeSeparatorMenuItem,
-  ListItem(ListItem), ListItemClass,
-  toListItem, 
-  mkListItem, unListItem,
-  castToListItem, gTypeListItem,
   Window(Window), WindowClass,
   toWindow, 
   mkWindow, unWindow,
@@ -332,10 +300,6 @@ module Graphics.UI.Gtk.Types (
   toColorSelectionDialog, 
   mkColorSelectionDialog, unColorSelectionDialog,
   castToColorSelectionDialog, gTypeColorSelectionDialog,
-  FileSelection(FileSelection), FileSelectionClass,
-  toFileSelection, 
-  mkFileSelection, unFileSelection,
-  castToFileSelection, gTypeFileSelection,
   FileChooserDialog(FileChooserDialog), FileChooserDialogClass,
   toFileChooserDialog, 
   mkFileChooserDialog, unFileChooserDialog,
@@ -344,10 +308,6 @@ module Graphics.UI.Gtk.Types (
   toFontSelectionDialog, 
   mkFontSelectionDialog, unFontSelectionDialog,
   castToFontSelectionDialog, gTypeFontSelectionDialog,
-  InputDialog(InputDialog), InputDialogClass,
-  toInputDialog, 
-  mkInputDialog, unInputDialog,
-  castToInputDialog, gTypeInputDialog,
   MessageDialog(MessageDialog), MessageDialogClass,
   toMessageDialog, 
   mkMessageDialog, unMessageDialog,
@@ -380,10 +340,6 @@ module Graphics.UI.Gtk.Types (
   toComboBox, 
   mkComboBox, unComboBox,
   castToComboBox, gTypeComboBox,
-  ComboBoxEntry(ComboBoxEntry), ComboBoxEntryClass,
-  toComboBoxEntry, 
-  mkComboBoxEntry, unComboBoxEntry,
-  castToComboBoxEntry, gTypeComboBoxEntry,
   ToolItem(ToolItem), ToolItemClass,
   toToolItem, 
   mkToolItem, unToolItem,
@@ -452,10 +408,6 @@ module Graphics.UI.Gtk.Types (
   toInfoBar, 
   mkInfoBar, unInfoBar,
   castToInfoBar, gTypeInfoBar,
-  Combo(Combo), ComboClass,
-  toCombo, 
-  mkCombo, unCombo,
-  castToCombo, gTypeCombo,
   FileChooserButton(FileChooserButton), FileChooserButtonClass,
   toFileChooserButton, 
   mkFileChooserButton, unFileChooserButton,
@@ -464,14 +416,6 @@ module Graphics.UI.Gtk.Types (
   toStatusbar, 
   mkStatusbar, unStatusbar,
   castToStatusbar, gTypeStatusbar,
-  CList(CList), CListClass,
-  toCList, 
-  mkCList, unCList,
-  castToCList, gTypeCList,
-  CTree(CTree), CTreeClass,
-  toCTree, 
-  mkCTree, unCTree,
-  castToCTree, gTypeCTree,
   Fixed(Fixed), FixedClass,
   toFixed, 
   mkFixed, unFixed,
@@ -496,10 +440,6 @@ module Graphics.UI.Gtk.Types (
   toLayout, 
   mkLayout, unLayout,
   castToLayout, gTypeLayout,
-  List(List), ListClass,
-  toList, 
-  mkList, unList,
-  castToList, gTypeList,
   MenuShell(MenuShell), MenuShellClass,
   toMenuShell, 
   mkMenuShell, unMenuShell,
@@ -564,18 +504,6 @@ module Graphics.UI.Gtk.Types (
   toSpinButton, 
   mkSpinButton, unSpinButton,
   castToSpinButton, gTypeSpinButton,
-  Ruler(Ruler), RulerClass,
-  toRuler, 
-  mkRuler, unRuler,
-  castToRuler, gTypeRuler,
-  HRuler(HRuler), HRulerClass,
-  toHRuler, 
-  mkHRuler, unHRuler,
-  castToHRuler, gTypeHRuler,
-  VRuler(VRuler), VRulerClass,
-  toVRuler, 
-  mkVRuler, unVRuler,
-  castToVRuler, gTypeVRuler,
   Range(Range), RangeClass,
   toRange, 
   mkRange, unRange,
@@ -620,10 +548,6 @@ module Graphics.UI.Gtk.Types (
   toInvisible, 
   mkInvisible, unInvisible,
   castToInvisible, gTypeInvisible,
-  Preview(Preview), PreviewClass,
-  toPreview, 
-  mkPreview, unPreview,
-  castToPreview, gTypePreview,
   ProgressBar(ProgressBar), ProgressBarClass,
   toProgressBar, 
   mkProgressBar, unProgressBar,
@@ -644,14 +568,6 @@ module Graphics.UI.Gtk.Types (
   toIMContextSimple, 
   mkIMContextSimple, unIMContextSimple,
   castToIMContextSimple, gTypeIMContextSimple,
-  ItemFactory(ItemFactory), ItemFactoryClass,
-  toItemFactory, 
-  mkItemFactory, unItemFactory,
-  castToItemFactory, gTypeItemFactory,
-  Tooltips(Tooltips), TooltipsClass,
-  toTooltips, 
-  mkTooltips, unTooltips,
-  castToTooltips, gTypeTooltips,
   TreeViewColumn(TreeViewColumn), TreeViewColumnClass,
   toTreeViewColumn, 
   mkTreeViewColumn, unTreeViewColumn,
@@ -700,6 +616,18 @@ module Graphics.UI.Gtk.Types (
   toBuilder, 
   mkBuilder, unBuilder,
   castToBuilder, gTypeBuilder,
+  StyleContext(StyleContext), StyleContextClass,
+  toStyleContext, 
+  mkStyleContext, unStyleContext,
+  castToStyleContext, gTypeStyleContext,
+  StyleProvider(StyleProvider), StyleProviderClass,
+  toStyleProvider, 
+  mkStyleProvider, unStyleProvider,
+  castToStyleProvider, gTypeStyleProvider,
+  CssProvider(CssProvider), CssProviderClass,
+  toCssProvider, 
+  mkCssProvider, unCssProvider,
+  castToCssProvider, gTypeCssProvider,
   CellLayout(CellLayout), CellLayoutClass,
   toCellLayout, 
   mkCellLayout, unCellLayout,
@@ -811,14 +739,15 @@ module Graphics.UI.Gtk.Types (
   FileChooser(FileChooser), FileChooserClass,
   toFileChooser, 
   mkFileChooser, unFileChooser,
-  castToFileChooser, gTypeFileChooser,
-  GC(GC), GCClass,
-  toGC, 
-  mkGC, unGC,
-  castToGC, gTypeGC
+  castToFileChooser, gTypeFileChooser
   ) where
 
-import Foreign.ForeignPtr (ForeignPtr, castForeignPtr, unsafeForeignPtrToPtr)
+import Foreign.ForeignPtr (ForeignPtr, castForeignPtr)
+#if __GLASGOW_HASKELL__ >= 707
+import Foreign.ForeignPtr.Unsafe (unsafeForeignPtrToPtr)
+#else
+import Foreign.ForeignPtr (unsafeForeignPtrToPtr)
+#endif
 import Foreign.C.Types    (CULong(..), CUInt(..))
 import System.Glib.GType  (GType, typeInstanceIsA)
 {#import System.Glib.GObject#}
@@ -1116,29 +1045,6 @@ gTypeRecentManager :: GType
 gTypeRecentManager =
   {# call fun unsafe gtk_recent_manager_get_type #}
 
--- ******************************************************************* Drawable
-
-{#pointer *GdkDrawable as Drawable foreign newtype #} deriving (Eq,Ord)
-
-mkDrawable = (Drawable, objectUnrefFromMainloop)
-unDrawable (Drawable o) = o
-
-class GObjectClass o => DrawableClass o
-toDrawable :: DrawableClass o => o -> Drawable
-toDrawable = unsafeCastGObject . toGObject
-
-instance DrawableClass Drawable
-instance GObjectClass Drawable where
-  toGObject = GObject . castForeignPtr . unDrawable
-  unsafeCastGObject = Drawable . castForeignPtr . unGObject
-
-castToDrawable :: GObjectClass obj => obj -> Drawable
-castToDrawable = castTo gTypeDrawable "Drawable"
-
-gTypeDrawable :: GType
-gTypeDrawable =
-  {# call fun unsafe gdk_drawable_get_type #}
-
 -- ***************************************************************** DrawWindow
 
 {#pointer *GdkWindow as DrawWindow foreign newtype #} deriving (Eq,Ord)
@@ -1146,12 +1052,11 @@ gTypeDrawable =
 mkDrawWindow = (DrawWindow, objectUnrefFromMainloop)
 unDrawWindow (DrawWindow o) = o
 
-class DrawableClass o => DrawWindowClass o
+class GObjectClass o => DrawWindowClass o
 toDrawWindow :: DrawWindowClass o => o -> DrawWindow
 toDrawWindow = unsafeCastGObject . toGObject
 
 instance DrawWindowClass DrawWindow
-instance DrawableClass DrawWindow
 instance GObjectClass DrawWindow where
   toGObject = GObject . castForeignPtr . unDrawWindow
   unsafeCastGObject = DrawWindow . castForeignPtr . unGObject
@@ -1161,54 +1066,7 @@ castToDrawWindow = castTo gTypeDrawWindow "DrawWindow"
 
 gTypeDrawWindow :: GType
 gTypeDrawWindow =
-  {# call fun unsafe gdk_window_object_get_type #}
-
--- ********************************************************************* Pixmap
-
-{#pointer *GdkPixmap as Pixmap foreign newtype #} deriving (Eq,Ord)
-
-mkPixmap = (Pixmap, objectUnrefFromMainloop)
-unPixmap (Pixmap o) = o
-
-class DrawableClass o => PixmapClass o
-toPixmap :: PixmapClass o => o -> Pixmap
-toPixmap = unsafeCastGObject . toGObject
-
-instance PixmapClass Pixmap
-instance DrawableClass Pixmap
-instance GObjectClass Pixmap where
-  toGObject = GObject . castForeignPtr . unPixmap
-  unsafeCastGObject = Pixmap . castForeignPtr . unGObject
-
-castToPixmap :: GObjectClass obj => obj -> Pixmap
-castToPixmap = castTo gTypePixmap "Pixmap"
-
-gTypePixmap :: GType
-gTypePixmap =
-  {# call fun unsafe gdk_pixmap_get_type #}
-
--- ******************************************************************* Colormap
-
-{#pointer *GdkColormap as Colormap foreign newtype #} deriving (Eq,Ord)
-
-mkColormap = (Colormap, objectUnrefFromMainloop)
-unColormap (Colormap o) = o
-
-class GObjectClass o => ColormapClass o
-toColormap :: ColormapClass o => o -> Colormap
-toColormap = unsafeCastGObject . toGObject
-
-instance ColormapClass Colormap
-instance GObjectClass Colormap where
-  toGObject = GObject . castForeignPtr . unColormap
-  unsafeCastGObject = Colormap . castForeignPtr . unGObject
-
-castToColormap :: GObjectClass obj => obj -> Colormap
-castToColormap = castTo gTypeColormap "Colormap"
-
-gTypeColormap :: GType
-gTypeColormap =
-  {# call fun unsafe gdk_colormap_get_type #}
+  {# call fun unsafe gdk_window_get_type #}
 
 -- ********************************************************************* Screen
 
@@ -1602,29 +1460,6 @@ gTypeTextMark :: GType
 gTypeTextMark =
   {# call fun unsafe gtk_text_mark_get_type #}
 
--- ********************************************************************* Object
-
-{#pointer *GtkObject as Object foreign newtype #} deriving (Eq,Ord)
-
-mkObject = (Object, objectUnrefFromMainloop)
-unObject (Object o) = o
-
-class GObjectClass o => ObjectClass o
-toObject :: ObjectClass o => o -> Object
-toObject = unsafeCastGObject . toGObject
-
-instance ObjectClass Object
-instance GObjectClass Object where
-  toGObject = GObject . castForeignPtr . unObject
-  unsafeCastGObject = Object . castForeignPtr . unGObject
-
-castToObject :: GObjectClass obj => obj -> Object
-castToObject = castTo gTypeObject "Object"
-
-gTypeObject :: GType
-gTypeObject =
-  {# call fun unsafe gtk_object_get_type #}
-
 -- *************************************************************** RecentFilter
 
 {#pointer *GtkRecentFilter as RecentFilter foreign newtype #} deriving (Eq,Ord)
@@ -1632,12 +1467,11 @@ gTypeObject =
 mkRecentFilter = (RecentFilter, objectUnrefFromMainloop)
 unRecentFilter (RecentFilter o) = o
 
-class ObjectClass o => RecentFilterClass o
+class GObjectClass o => RecentFilterClass o
 toRecentFilter :: RecentFilterClass o => o -> RecentFilter
 toRecentFilter = unsafeCastGObject . toGObject
 
 instance RecentFilterClass RecentFilter
-instance ObjectClass RecentFilter
 instance GObjectClass RecentFilter where
   toGObject = GObject . castForeignPtr . unRecentFilter
   unsafeCastGObject = RecentFilter . castForeignPtr . unGObject
@@ -1656,12 +1490,11 @@ gTypeRecentFilter =
 mkWidget = (Widget, objectUnrefFromMainloop)
 unWidget (Widget o) = o
 
-class ObjectClass o => WidgetClass o
+class GObjectClass o => WidgetClass o
 toWidget :: WidgetClass o => o -> Widget
 toWidget = unsafeCastGObject . toGObject
 
 instance WidgetClass Widget
-instance ObjectClass Widget
 instance GObjectClass Widget where
   toGObject = GObject . castForeignPtr . unWidget
   unsafeCastGObject = Widget . castForeignPtr . unGObject
@@ -1686,7 +1519,6 @@ toHSV = unsafeCastGObject . toGObject
 
 instance HSVClass HSV
 instance WidgetClass HSV
-instance ObjectClass HSV
 instance GObjectClass HSV where
   toGObject = GObject . castForeignPtr . unHSV
   unsafeCastGObject = HSV . castForeignPtr . unGObject
@@ -1711,7 +1543,6 @@ toMisc = unsafeCastGObject . toGObject
 
 instance MiscClass Misc
 instance WidgetClass Misc
-instance ObjectClass Misc
 instance GObjectClass Misc where
   toGObject = GObject . castForeignPtr . unMisc
   unsafeCastGObject = Misc . castForeignPtr . unGObject
@@ -1737,7 +1568,6 @@ toLabel = unsafeCastGObject . toGObject
 instance LabelClass Label
 instance MiscClass Label
 instance WidgetClass Label
-instance ObjectClass Label
 instance GObjectClass Label where
   toGObject = GObject . castForeignPtr . unLabel
   unsafeCastGObject = Label . castForeignPtr . unGObject
@@ -1764,7 +1594,6 @@ instance AccelLabelClass AccelLabel
 instance LabelClass AccelLabel
 instance MiscClass AccelLabel
 instance WidgetClass AccelLabel
-instance ObjectClass AccelLabel
 instance GObjectClass AccelLabel where
   toGObject = GObject . castForeignPtr . unAccelLabel
   unsafeCastGObject = AccelLabel . castForeignPtr . unGObject
@@ -1775,33 +1604,6 @@ castToAccelLabel = castTo gTypeAccelLabel "AccelLabel"
 gTypeAccelLabel :: GType
 gTypeAccelLabel =
   {# call fun unsafe gtk_accel_label_get_type #}
-
--- ****************************************************************** TipsQuery
-
-{#pointer *GtkTipsQuery as TipsQuery foreign newtype #} deriving (Eq,Ord)
-
-mkTipsQuery = (TipsQuery, objectUnrefFromMainloop)
-unTipsQuery (TipsQuery o) = o
-
-class LabelClass o => TipsQueryClass o
-toTipsQuery :: TipsQueryClass o => o -> TipsQuery
-toTipsQuery = unsafeCastGObject . toGObject
-
-instance TipsQueryClass TipsQuery
-instance LabelClass TipsQuery
-instance MiscClass TipsQuery
-instance WidgetClass TipsQuery
-instance ObjectClass TipsQuery
-instance GObjectClass TipsQuery where
-  toGObject = GObject . castForeignPtr . unTipsQuery
-  unsafeCastGObject = TipsQuery . castForeignPtr . unGObject
-
-castToTipsQuery :: GObjectClass obj => obj -> TipsQuery
-castToTipsQuery = castTo gTypeTipsQuery "TipsQuery"
-
-gTypeTipsQuery :: GType
-gTypeTipsQuery =
-  {# call fun unsafe gtk_tips_query_get_type #}
 
 -- ********************************************************************** Arrow
 
@@ -1817,7 +1619,6 @@ toArrow = unsafeCastGObject . toGObject
 instance ArrowClass Arrow
 instance MiscClass Arrow
 instance WidgetClass Arrow
-instance ObjectClass Arrow
 instance GObjectClass Arrow where
   toGObject = GObject . castForeignPtr . unArrow
   unsafeCastGObject = Arrow . castForeignPtr . unGObject
@@ -1843,7 +1644,6 @@ toImage = unsafeCastGObject . toGObject
 instance ImageClass Image
 instance MiscClass Image
 instance WidgetClass Image
-instance ObjectClass Image
 instance GObjectClass Image where
   toGObject = GObject . castForeignPtr . unImage
   unsafeCastGObject = Image . castForeignPtr . unGObject
@@ -1868,7 +1668,6 @@ toContainer = unsafeCastGObject . toGObject
 
 instance ContainerClass Container
 instance WidgetClass Container
-instance ObjectClass Container
 instance GObjectClass Container where
   toGObject = GObject . castForeignPtr . unContainer
   unsafeCastGObject = Container . castForeignPtr . unGObject
@@ -1894,7 +1693,6 @@ toToolPalette = unsafeCastGObject . toGObject
 instance ToolPaletteClass ToolPalette
 instance ContainerClass ToolPalette
 instance WidgetClass ToolPalette
-instance ObjectClass ToolPalette
 instance GObjectClass ToolPalette where
   toGObject = GObject . castForeignPtr . unToolPalette
   unsafeCastGObject = ToolPalette . castForeignPtr . unGObject
@@ -1920,7 +1718,6 @@ toToolItemGroup = unsafeCastGObject . toGObject
 instance ToolItemGroupClass ToolItemGroup
 instance ContainerClass ToolItemGroup
 instance WidgetClass ToolItemGroup
-instance ObjectClass ToolItemGroup
 instance GObjectClass ToolItemGroup where
   toGObject = GObject . castForeignPtr . unToolItemGroup
   unsafeCastGObject = ToolItemGroup . castForeignPtr . unGObject
@@ -1946,7 +1743,6 @@ toBin = unsafeCastGObject . toGObject
 instance BinClass Bin
 instance ContainerClass Bin
 instance WidgetClass Bin
-instance ObjectClass Bin
 instance GObjectClass Bin where
   toGObject = GObject . castForeignPtr . unBin
   unsafeCastGObject = Bin . castForeignPtr . unGObject
@@ -1973,7 +1769,6 @@ instance AlignmentClass Alignment
 instance BinClass Alignment
 instance ContainerClass Alignment
 instance WidgetClass Alignment
-instance ObjectClass Alignment
 instance GObjectClass Alignment where
   toGObject = GObject . castForeignPtr . unAlignment
   unsafeCastGObject = Alignment . castForeignPtr . unGObject
@@ -2000,7 +1795,6 @@ instance FrameClass Frame
 instance BinClass Frame
 instance ContainerClass Frame
 instance WidgetClass Frame
-instance ObjectClass Frame
 instance GObjectClass Frame where
   toGObject = GObject . castForeignPtr . unFrame
   unsafeCastGObject = Frame . castForeignPtr . unGObject
@@ -2028,7 +1822,6 @@ instance FrameClass AspectFrame
 instance BinClass AspectFrame
 instance ContainerClass AspectFrame
 instance WidgetClass AspectFrame
-instance ObjectClass AspectFrame
 instance GObjectClass AspectFrame where
   toGObject = GObject . castForeignPtr . unAspectFrame
   unsafeCastGObject = AspectFrame . castForeignPtr . unGObject
@@ -2055,7 +1848,6 @@ instance ButtonClass Button
 instance BinClass Button
 instance ContainerClass Button
 instance WidgetClass Button
-instance ObjectClass Button
 instance GObjectClass Button where
   toGObject = GObject . castForeignPtr . unButton
   unsafeCastGObject = Button . castForeignPtr . unGObject
@@ -2083,7 +1875,6 @@ instance ButtonClass ScaleButton
 instance BinClass ScaleButton
 instance ContainerClass ScaleButton
 instance WidgetClass ScaleButton
-instance ObjectClass ScaleButton
 instance GObjectClass ScaleButton where
   toGObject = GObject . castForeignPtr . unScaleButton
   unsafeCastGObject = ScaleButton . castForeignPtr . unGObject
@@ -2112,7 +1903,6 @@ instance ButtonClass VolumeButton
 instance BinClass VolumeButton
 instance ContainerClass VolumeButton
 instance WidgetClass VolumeButton
-instance ObjectClass VolumeButton
 instance GObjectClass VolumeButton where
   toGObject = GObject . castForeignPtr . unVolumeButton
   unsafeCastGObject = VolumeButton . castForeignPtr . unGObject
@@ -2140,7 +1930,6 @@ instance ButtonClass LinkButton
 instance BinClass LinkButton
 instance ContainerClass LinkButton
 instance WidgetClass LinkButton
-instance ObjectClass LinkButton
 instance GObjectClass LinkButton where
   toGObject = GObject . castForeignPtr . unLinkButton
   unsafeCastGObject = LinkButton . castForeignPtr . unGObject
@@ -2168,7 +1957,6 @@ instance ButtonClass ToggleButton
 instance BinClass ToggleButton
 instance ContainerClass ToggleButton
 instance WidgetClass ToggleButton
-instance ObjectClass ToggleButton
 instance GObjectClass ToggleButton where
   toGObject = GObject . castForeignPtr . unToggleButton
   unsafeCastGObject = ToggleButton . castForeignPtr . unGObject
@@ -2197,7 +1985,6 @@ instance ButtonClass CheckButton
 instance BinClass CheckButton
 instance ContainerClass CheckButton
 instance WidgetClass CheckButton
-instance ObjectClass CheckButton
 instance GObjectClass CheckButton where
   toGObject = GObject . castForeignPtr . unCheckButton
   unsafeCastGObject = CheckButton . castForeignPtr . unGObject
@@ -2227,7 +2014,6 @@ instance ButtonClass RadioButton
 instance BinClass RadioButton
 instance ContainerClass RadioButton
 instance WidgetClass RadioButton
-instance ObjectClass RadioButton
 instance GObjectClass RadioButton where
   toGObject = GObject . castForeignPtr . unRadioButton
   unsafeCastGObject = RadioButton . castForeignPtr . unGObject
@@ -2255,7 +2041,6 @@ instance ButtonClass ColorButton
 instance BinClass ColorButton
 instance ContainerClass ColorButton
 instance WidgetClass ColorButton
-instance ObjectClass ColorButton
 instance GObjectClass ColorButton where
   toGObject = GObject . castForeignPtr . unColorButton
   unsafeCastGObject = ColorButton . castForeignPtr . unGObject
@@ -2283,7 +2068,6 @@ instance ButtonClass FontButton
 instance BinClass FontButton
 instance ContainerClass FontButton
 instance WidgetClass FontButton
-instance ObjectClass FontButton
 instance GObjectClass FontButton where
   toGObject = GObject . castForeignPtr . unFontButton
   unsafeCastGObject = FontButton . castForeignPtr . unGObject
@@ -2295,61 +2079,6 @@ gTypeFontButton :: GType
 gTypeFontButton =
   {# call fun unsafe gtk_font_button_get_type #}
 
--- ***************************************************************** OptionMenu
-
-{#pointer *GtkOptionMenu as OptionMenu foreign newtype #} deriving (Eq,Ord)
-
-mkOptionMenu = (OptionMenu, objectUnrefFromMainloop)
-unOptionMenu (OptionMenu o) = o
-
-class ButtonClass o => OptionMenuClass o
-toOptionMenu :: OptionMenuClass o => o -> OptionMenu
-toOptionMenu = unsafeCastGObject . toGObject
-
-instance OptionMenuClass OptionMenu
-instance ButtonClass OptionMenu
-instance BinClass OptionMenu
-instance ContainerClass OptionMenu
-instance WidgetClass OptionMenu
-instance ObjectClass OptionMenu
-instance GObjectClass OptionMenu where
-  toGObject = GObject . castForeignPtr . unOptionMenu
-  unsafeCastGObject = OptionMenu . castForeignPtr . unGObject
-
-castToOptionMenu :: GObjectClass obj => obj -> OptionMenu
-castToOptionMenu = castTo gTypeOptionMenu "OptionMenu"
-
-gTypeOptionMenu :: GType
-gTypeOptionMenu =
-  {# call fun unsafe gtk_option_menu_get_type #}
-
--- *********************************************************************** Item
-
-{#pointer *GtkItem as Item foreign newtype #} deriving (Eq,Ord)
-
-mkItem = (Item, objectUnrefFromMainloop)
-unItem (Item o) = o
-
-class BinClass o => ItemClass o
-toItem :: ItemClass o => o -> Item
-toItem = unsafeCastGObject . toGObject
-
-instance ItemClass Item
-instance BinClass Item
-instance ContainerClass Item
-instance WidgetClass Item
-instance ObjectClass Item
-instance GObjectClass Item where
-  toGObject = GObject . castForeignPtr . unItem
-  unsafeCastGObject = Item . castForeignPtr . unGObject
-
-castToItem :: GObjectClass obj => obj -> Item
-castToItem = castTo gTypeItem "Item"
-
-gTypeItem :: GType
-gTypeItem =
-  {# call fun unsafe gtk_item_get_type #}
-
 -- ******************************************************************* MenuItem
 
 {#pointer *GtkMenuItem as MenuItem foreign newtype #} deriving (Eq,Ord)
@@ -2357,16 +2086,14 @@ gTypeItem =
 mkMenuItem = (MenuItem, objectUnrefFromMainloop)
 unMenuItem (MenuItem o) = o
 
-class ItemClass o => MenuItemClass o
+class BinClass o => MenuItemClass o
 toMenuItem :: MenuItemClass o => o -> MenuItem
 toMenuItem = unsafeCastGObject . toGObject
 
 instance MenuItemClass MenuItem
-instance ItemClass MenuItem
 instance BinClass MenuItem
 instance ContainerClass MenuItem
 instance WidgetClass MenuItem
-instance ObjectClass MenuItem
 instance GObjectClass MenuItem where
   toGObject = GObject . castForeignPtr . unMenuItem
   unsafeCastGObject = MenuItem . castForeignPtr . unGObject
@@ -2391,11 +2118,9 @@ toCheckMenuItem = unsafeCastGObject . toGObject
 
 instance CheckMenuItemClass CheckMenuItem
 instance MenuItemClass CheckMenuItem
-instance ItemClass CheckMenuItem
 instance BinClass CheckMenuItem
 instance ContainerClass CheckMenuItem
 instance WidgetClass CheckMenuItem
-instance ObjectClass CheckMenuItem
 instance GObjectClass CheckMenuItem where
   toGObject = GObject . castForeignPtr . unCheckMenuItem
   unsafeCastGObject = CheckMenuItem . castForeignPtr . unGObject
@@ -2421,11 +2146,9 @@ toRadioMenuItem = unsafeCastGObject . toGObject
 instance RadioMenuItemClass RadioMenuItem
 instance CheckMenuItemClass RadioMenuItem
 instance MenuItemClass RadioMenuItem
-instance ItemClass RadioMenuItem
 instance BinClass RadioMenuItem
 instance ContainerClass RadioMenuItem
 instance WidgetClass RadioMenuItem
-instance ObjectClass RadioMenuItem
 instance GObjectClass RadioMenuItem where
   toGObject = GObject . castForeignPtr . unRadioMenuItem
   unsafeCastGObject = RadioMenuItem . castForeignPtr . unGObject
@@ -2450,11 +2173,9 @@ toTearoffMenuItem = unsafeCastGObject . toGObject
 
 instance TearoffMenuItemClass TearoffMenuItem
 instance MenuItemClass TearoffMenuItem
-instance ItemClass TearoffMenuItem
 instance BinClass TearoffMenuItem
 instance ContainerClass TearoffMenuItem
 instance WidgetClass TearoffMenuItem
-instance ObjectClass TearoffMenuItem
 instance GObjectClass TearoffMenuItem where
   toGObject = GObject . castForeignPtr . unTearoffMenuItem
   unsafeCastGObject = TearoffMenuItem . castForeignPtr . unGObject
@@ -2479,11 +2200,9 @@ toImageMenuItem = unsafeCastGObject . toGObject
 
 instance ImageMenuItemClass ImageMenuItem
 instance MenuItemClass ImageMenuItem
-instance ItemClass ImageMenuItem
 instance BinClass ImageMenuItem
 instance ContainerClass ImageMenuItem
 instance WidgetClass ImageMenuItem
-instance ObjectClass ImageMenuItem
 instance GObjectClass ImageMenuItem where
   toGObject = GObject . castForeignPtr . unImageMenuItem
   unsafeCastGObject = ImageMenuItem . castForeignPtr . unGObject
@@ -2508,11 +2227,9 @@ toSeparatorMenuItem = unsafeCastGObject . toGObject
 
 instance SeparatorMenuItemClass SeparatorMenuItem
 instance MenuItemClass SeparatorMenuItem
-instance ItemClass SeparatorMenuItem
 instance BinClass SeparatorMenuItem
 instance ContainerClass SeparatorMenuItem
 instance WidgetClass SeparatorMenuItem
-instance ObjectClass SeparatorMenuItem
 instance GObjectClass SeparatorMenuItem where
   toGObject = GObject . castForeignPtr . unSeparatorMenuItem
   unsafeCastGObject = SeparatorMenuItem . castForeignPtr . unGObject
@@ -2523,34 +2240,6 @@ castToSeparatorMenuItem = castTo gTypeSeparatorMenuItem "SeparatorMenuItem"
 gTypeSeparatorMenuItem :: GType
 gTypeSeparatorMenuItem =
   {# call fun unsafe gtk_separator_menu_item_get_type #}
-
--- ******************************************************************* ListItem
-
-{#pointer *GtkListItem as ListItem foreign newtype #} deriving (Eq,Ord)
-
-mkListItem = (ListItem, objectUnrefFromMainloop)
-unListItem (ListItem o) = o
-
-class ItemClass o => ListItemClass o
-toListItem :: ListItemClass o => o -> ListItem
-toListItem = unsafeCastGObject . toGObject
-
-instance ListItemClass ListItem
-instance ItemClass ListItem
-instance BinClass ListItem
-instance ContainerClass ListItem
-instance WidgetClass ListItem
-instance ObjectClass ListItem
-instance GObjectClass ListItem where
-  toGObject = GObject . castForeignPtr . unListItem
-  unsafeCastGObject = ListItem . castForeignPtr . unGObject
-
-castToListItem :: GObjectClass obj => obj -> ListItem
-castToListItem = castTo gTypeListItem "ListItem"
-
-gTypeListItem :: GType
-gTypeListItem =
-  {# call fun unsafe gtk_list_item_get_type #}
 
 -- ********************************************************************* Window
 
@@ -2567,7 +2256,6 @@ instance WindowClass Window
 instance BinClass Window
 instance ContainerClass Window
 instance WidgetClass Window
-instance ObjectClass Window
 instance GObjectClass Window where
   toGObject = GObject . castForeignPtr . unWindow
   unsafeCastGObject = Window . castForeignPtr . unGObject
@@ -2595,7 +2283,6 @@ instance WindowClass Assistant
 instance BinClass Assistant
 instance ContainerClass Assistant
 instance WidgetClass Assistant
-instance ObjectClass Assistant
 instance GObjectClass Assistant where
   toGObject = GObject . castForeignPtr . unAssistant
   unsafeCastGObject = Assistant . castForeignPtr . unGObject
@@ -2623,7 +2310,6 @@ instance WindowClass OffscreenWindow
 instance BinClass OffscreenWindow
 instance ContainerClass OffscreenWindow
 instance WidgetClass OffscreenWindow
-instance ObjectClass OffscreenWindow
 instance GObjectClass OffscreenWindow where
   toGObject = GObject . castForeignPtr . unOffscreenWindow
   unsafeCastGObject = OffscreenWindow . castForeignPtr . unGObject
@@ -2651,7 +2337,6 @@ instance WindowClass Dialog
 instance BinClass Dialog
 instance ContainerClass Dialog
 instance WidgetClass Dialog
-instance ObjectClass Dialog
 instance GObjectClass Dialog where
   toGObject = GObject . castForeignPtr . unDialog
   unsafeCastGObject = Dialog . castForeignPtr . unGObject
@@ -2680,7 +2365,6 @@ instance WindowClass AboutDialog
 instance BinClass AboutDialog
 instance ContainerClass AboutDialog
 instance WidgetClass AboutDialog
-instance ObjectClass AboutDialog
 instance GObjectClass AboutDialog where
   toGObject = GObject . castForeignPtr . unAboutDialog
   unsafeCastGObject = AboutDialog . castForeignPtr . unGObject
@@ -2709,7 +2393,6 @@ instance WindowClass ColorSelectionDialog
 instance BinClass ColorSelectionDialog
 instance ContainerClass ColorSelectionDialog
 instance WidgetClass ColorSelectionDialog
-instance ObjectClass ColorSelectionDialog
 instance GObjectClass ColorSelectionDialog where
   toGObject = GObject . castForeignPtr . unColorSelectionDialog
   unsafeCastGObject = ColorSelectionDialog . castForeignPtr . unGObject
@@ -2720,35 +2403,6 @@ castToColorSelectionDialog = castTo gTypeColorSelectionDialog "ColorSelectionDia
 gTypeColorSelectionDialog :: GType
 gTypeColorSelectionDialog =
   {# call fun unsafe gtk_color_selection_dialog_get_type #}
-
--- ************************************************************** FileSelection
-
-{#pointer *GtkFileSelection as FileSelection foreign newtype #} deriving (Eq,Ord)
-
-mkFileSelection = (FileSelection, objectUnrefFromMainloop)
-unFileSelection (FileSelection o) = o
-
-class DialogClass o => FileSelectionClass o
-toFileSelection :: FileSelectionClass o => o -> FileSelection
-toFileSelection = unsafeCastGObject . toGObject
-
-instance FileSelectionClass FileSelection
-instance DialogClass FileSelection
-instance WindowClass FileSelection
-instance BinClass FileSelection
-instance ContainerClass FileSelection
-instance WidgetClass FileSelection
-instance ObjectClass FileSelection
-instance GObjectClass FileSelection where
-  toGObject = GObject . castForeignPtr . unFileSelection
-  unsafeCastGObject = FileSelection . castForeignPtr . unGObject
-
-castToFileSelection :: GObjectClass obj => obj -> FileSelection
-castToFileSelection = castTo gTypeFileSelection "FileSelection"
-
-gTypeFileSelection :: GType
-gTypeFileSelection =
-  {# call fun unsafe gtk_file_selection_get_type #}
 
 -- ********************************************************** FileChooserDialog
 
@@ -2767,7 +2421,6 @@ instance WindowClass FileChooserDialog
 instance BinClass FileChooserDialog
 instance ContainerClass FileChooserDialog
 instance WidgetClass FileChooserDialog
-instance ObjectClass FileChooserDialog
 instance GObjectClass FileChooserDialog where
   toGObject = GObject . castForeignPtr . unFileChooserDialog
   unsafeCastGObject = FileChooserDialog . castForeignPtr . unGObject
@@ -2796,7 +2449,6 @@ instance WindowClass FontSelectionDialog
 instance BinClass FontSelectionDialog
 instance ContainerClass FontSelectionDialog
 instance WidgetClass FontSelectionDialog
-instance ObjectClass FontSelectionDialog
 instance GObjectClass FontSelectionDialog where
   toGObject = GObject . castForeignPtr . unFontSelectionDialog
   unsafeCastGObject = FontSelectionDialog . castForeignPtr . unGObject
@@ -2807,35 +2459,6 @@ castToFontSelectionDialog = castTo gTypeFontSelectionDialog "FontSelectionDialog
 gTypeFontSelectionDialog :: GType
 gTypeFontSelectionDialog =
   {# call fun unsafe gtk_font_selection_dialog_get_type #}
-
--- **************************************************************** InputDialog
-
-{#pointer *GtkInputDialog as InputDialog foreign newtype #} deriving (Eq,Ord)
-
-mkInputDialog = (InputDialog, objectUnrefFromMainloop)
-unInputDialog (InputDialog o) = o
-
-class DialogClass o => InputDialogClass o
-toInputDialog :: InputDialogClass o => o -> InputDialog
-toInputDialog = unsafeCastGObject . toGObject
-
-instance InputDialogClass InputDialog
-instance DialogClass InputDialog
-instance WindowClass InputDialog
-instance BinClass InputDialog
-instance ContainerClass InputDialog
-instance WidgetClass InputDialog
-instance ObjectClass InputDialog
-instance GObjectClass InputDialog where
-  toGObject = GObject . castForeignPtr . unInputDialog
-  unsafeCastGObject = InputDialog . castForeignPtr . unGObject
-
-castToInputDialog :: GObjectClass obj => obj -> InputDialog
-castToInputDialog = castTo gTypeInputDialog "InputDialog"
-
-gTypeInputDialog :: GType
-gTypeInputDialog =
-  {# call fun unsafe gtk_input_dialog_get_type #}
 
 -- ************************************************************** MessageDialog
 
@@ -2854,7 +2477,6 @@ instance WindowClass MessageDialog
 instance BinClass MessageDialog
 instance ContainerClass MessageDialog
 instance WidgetClass MessageDialog
-instance ObjectClass MessageDialog
 instance GObjectClass MessageDialog where
   toGObject = GObject . castForeignPtr . unMessageDialog
   unsafeCastGObject = MessageDialog . castForeignPtr . unGObject
@@ -2882,7 +2504,6 @@ instance WindowClass Plug
 instance BinClass Plug
 instance ContainerClass Plug
 instance WidgetClass Plug
-instance ObjectClass Plug
 instance GObjectClass Plug where
   toGObject = GObject . castForeignPtr . unPlug
   unsafeCastGObject = Plug . castForeignPtr . unGObject
@@ -2909,7 +2530,6 @@ instance EventBoxClass EventBox
 instance BinClass EventBox
 instance ContainerClass EventBox
 instance WidgetClass EventBox
-instance ObjectClass EventBox
 instance GObjectClass EventBox where
   toGObject = GObject . castForeignPtr . unEventBox
   unsafeCastGObject = EventBox . castForeignPtr . unGObject
@@ -2936,7 +2556,6 @@ instance HandleBoxClass HandleBox
 instance BinClass HandleBox
 instance ContainerClass HandleBox
 instance WidgetClass HandleBox
-instance ObjectClass HandleBox
 instance GObjectClass HandleBox where
   toGObject = GObject . castForeignPtr . unHandleBox
   unsafeCastGObject = HandleBox . castForeignPtr . unGObject
@@ -2963,7 +2582,6 @@ instance ScrolledWindowClass ScrolledWindow
 instance BinClass ScrolledWindow
 instance ContainerClass ScrolledWindow
 instance WidgetClass ScrolledWindow
-instance ObjectClass ScrolledWindow
 instance GObjectClass ScrolledWindow where
   toGObject = GObject . castForeignPtr . unScrolledWindow
   unsafeCastGObject = ScrolledWindow . castForeignPtr . unGObject
@@ -2990,7 +2608,6 @@ instance ViewportClass Viewport
 instance BinClass Viewport
 instance ContainerClass Viewport
 instance WidgetClass Viewport
-instance ObjectClass Viewport
 instance GObjectClass Viewport where
   toGObject = GObject . castForeignPtr . unViewport
   unsafeCastGObject = Viewport . castForeignPtr . unGObject
@@ -3017,7 +2634,6 @@ instance ExpanderClass Expander
 instance BinClass Expander
 instance ContainerClass Expander
 instance WidgetClass Expander
-instance ObjectClass Expander
 instance GObjectClass Expander where
   toGObject = GObject . castForeignPtr . unExpander
   unsafeCastGObject = Expander . castForeignPtr . unGObject
@@ -3044,7 +2660,6 @@ instance ComboBoxClass ComboBox
 instance BinClass ComboBox
 instance ContainerClass ComboBox
 instance WidgetClass ComboBox
-instance ObjectClass ComboBox
 instance GObjectClass ComboBox where
   toGObject = GObject . castForeignPtr . unComboBox
   unsafeCastGObject = ComboBox . castForeignPtr . unGObject
@@ -3055,34 +2670,6 @@ castToComboBox = castTo gTypeComboBox "ComboBox"
 gTypeComboBox :: GType
 gTypeComboBox =
   {# call fun unsafe gtk_combo_box_get_type #}
-
--- ************************************************************** ComboBoxEntry
-
-{#pointer *GtkComboBoxEntry as ComboBoxEntry foreign newtype #} deriving (Eq,Ord)
-
-mkComboBoxEntry = (ComboBoxEntry, objectUnrefFromMainloop)
-unComboBoxEntry (ComboBoxEntry o) = o
-
-class ComboBoxClass o => ComboBoxEntryClass o
-toComboBoxEntry :: ComboBoxEntryClass o => o -> ComboBoxEntry
-toComboBoxEntry = unsafeCastGObject . toGObject
-
-instance ComboBoxEntryClass ComboBoxEntry
-instance ComboBoxClass ComboBoxEntry
-instance BinClass ComboBoxEntry
-instance ContainerClass ComboBoxEntry
-instance WidgetClass ComboBoxEntry
-instance ObjectClass ComboBoxEntry
-instance GObjectClass ComboBoxEntry where
-  toGObject = GObject . castForeignPtr . unComboBoxEntry
-  unsafeCastGObject = ComboBoxEntry . castForeignPtr . unGObject
-
-castToComboBoxEntry :: GObjectClass obj => obj -> ComboBoxEntry
-castToComboBoxEntry = castTo gTypeComboBoxEntry "ComboBoxEntry"
-
-gTypeComboBoxEntry :: GType
-gTypeComboBoxEntry =
-  {# call fun unsafe gtk_combo_box_entry_get_type #}
 
 -- ******************************************************************* ToolItem
 
@@ -3099,7 +2686,6 @@ instance ToolItemClass ToolItem
 instance BinClass ToolItem
 instance ContainerClass ToolItem
 instance WidgetClass ToolItem
-instance ObjectClass ToolItem
 instance GObjectClass ToolItem where
   toGObject = GObject . castForeignPtr . unToolItem
   unsafeCastGObject = ToolItem . castForeignPtr . unGObject
@@ -3127,7 +2713,6 @@ instance ToolItemClass ToolButton
 instance BinClass ToolButton
 instance ContainerClass ToolButton
 instance WidgetClass ToolButton
-instance ObjectClass ToolButton
 instance GObjectClass ToolButton where
   toGObject = GObject . castForeignPtr . unToolButton
   unsafeCastGObject = ToolButton . castForeignPtr . unGObject
@@ -3156,7 +2741,6 @@ instance ToolItemClass MenuToolButton
 instance BinClass MenuToolButton
 instance ContainerClass MenuToolButton
 instance WidgetClass MenuToolButton
-instance ObjectClass MenuToolButton
 instance GObjectClass MenuToolButton where
   toGObject = GObject . castForeignPtr . unMenuToolButton
   unsafeCastGObject = MenuToolButton . castForeignPtr . unGObject
@@ -3185,7 +2769,6 @@ instance ToolItemClass ToggleToolButton
 instance BinClass ToggleToolButton
 instance ContainerClass ToggleToolButton
 instance WidgetClass ToggleToolButton
-instance ObjectClass ToggleToolButton
 instance GObjectClass ToggleToolButton where
   toGObject = GObject . castForeignPtr . unToggleToolButton
   unsafeCastGObject = ToggleToolButton . castForeignPtr . unGObject
@@ -3215,7 +2798,6 @@ instance ToolItemClass RadioToolButton
 instance BinClass RadioToolButton
 instance ContainerClass RadioToolButton
 instance WidgetClass RadioToolButton
-instance ObjectClass RadioToolButton
 instance GObjectClass RadioToolButton where
   toGObject = GObject . castForeignPtr . unRadioToolButton
   unsafeCastGObject = RadioToolButton . castForeignPtr . unGObject
@@ -3243,7 +2825,6 @@ instance ToolItemClass SeparatorToolItem
 instance BinClass SeparatorToolItem
 instance ContainerClass SeparatorToolItem
 instance WidgetClass SeparatorToolItem
-instance ObjectClass SeparatorToolItem
 instance GObjectClass SeparatorToolItem where
   toGObject = GObject . castForeignPtr . unSeparatorToolItem
   unsafeCastGObject = SeparatorToolItem . castForeignPtr . unGObject
@@ -3269,7 +2850,6 @@ toBox = unsafeCastGObject . toGObject
 instance BoxClass Box
 instance ContainerClass Box
 instance WidgetClass Box
-instance ObjectClass Box
 instance GObjectClass Box where
   toGObject = GObject . castForeignPtr . unBox
   unsafeCastGObject = Box . castForeignPtr . unGObject
@@ -3296,7 +2876,6 @@ instance ButtonBoxClass ButtonBox
 instance BoxClass ButtonBox
 instance ContainerClass ButtonBox
 instance WidgetClass ButtonBox
-instance ObjectClass ButtonBox
 instance GObjectClass ButtonBox where
   toGObject = GObject . castForeignPtr . unButtonBox
   unsafeCastGObject = ButtonBox . castForeignPtr . unGObject
@@ -3324,7 +2903,6 @@ instance ButtonBoxClass HButtonBox
 instance BoxClass HButtonBox
 instance ContainerClass HButtonBox
 instance WidgetClass HButtonBox
-instance ObjectClass HButtonBox
 instance GObjectClass HButtonBox where
   toGObject = GObject . castForeignPtr . unHButtonBox
   unsafeCastGObject = HButtonBox . castForeignPtr . unGObject
@@ -3352,7 +2930,6 @@ instance ButtonBoxClass VButtonBox
 instance BoxClass VButtonBox
 instance ContainerClass VButtonBox
 instance WidgetClass VButtonBox
-instance ObjectClass VButtonBox
 instance GObjectClass VButtonBox where
   toGObject = GObject . castForeignPtr . unVButtonBox
   unsafeCastGObject = VButtonBox . castForeignPtr . unGObject
@@ -3379,7 +2956,6 @@ instance VBoxClass VBox
 instance BoxClass VBox
 instance ContainerClass VBox
 instance WidgetClass VBox
-instance ObjectClass VBox
 instance GObjectClass VBox where
   toGObject = GObject . castForeignPtr . unVBox
   unsafeCastGObject = VBox . castForeignPtr . unGObject
@@ -3407,7 +2983,6 @@ instance VBoxClass RecentChooserWidget
 instance BoxClass RecentChooserWidget
 instance ContainerClass RecentChooserWidget
 instance WidgetClass RecentChooserWidget
-instance ObjectClass RecentChooserWidget
 instance GObjectClass RecentChooserWidget where
   toGObject = GObject . castForeignPtr . unRecentChooserWidget
   unsafeCastGObject = RecentChooserWidget . castForeignPtr . unGObject
@@ -3435,7 +3010,6 @@ instance VBoxClass ColorSelection
 instance BoxClass ColorSelection
 instance ContainerClass ColorSelection
 instance WidgetClass ColorSelection
-instance ObjectClass ColorSelection
 instance GObjectClass ColorSelection where
   toGObject = GObject . castForeignPtr . unColorSelection
   unsafeCastGObject = ColorSelection . castForeignPtr . unGObject
@@ -3463,7 +3037,6 @@ instance VBoxClass FontSelection
 instance BoxClass FontSelection
 instance ContainerClass FontSelection
 instance WidgetClass FontSelection
-instance ObjectClass FontSelection
 instance GObjectClass FontSelection where
   toGObject = GObject . castForeignPtr . unFontSelection
   unsafeCastGObject = FontSelection . castForeignPtr . unGObject
@@ -3491,7 +3064,6 @@ instance VBoxClass FileChooserWidget
 instance BoxClass FileChooserWidget
 instance ContainerClass FileChooserWidget
 instance WidgetClass FileChooserWidget
-instance ObjectClass FileChooserWidget
 instance GObjectClass FileChooserWidget where
   toGObject = GObject . castForeignPtr . unFileChooserWidget
   unsafeCastGObject = FileChooserWidget . castForeignPtr . unGObject
@@ -3518,7 +3090,6 @@ instance HBoxClass HBox
 instance BoxClass HBox
 instance ContainerClass HBox
 instance WidgetClass HBox
-instance ObjectClass HBox
 instance GObjectClass HBox where
   toGObject = GObject . castForeignPtr . unHBox
   unsafeCastGObject = HBox . castForeignPtr . unGObject
@@ -3546,7 +3117,6 @@ instance HBoxClass InfoBar
 instance BoxClass InfoBar
 instance ContainerClass InfoBar
 instance WidgetClass InfoBar
-instance ObjectClass InfoBar
 instance GObjectClass InfoBar where
   toGObject = GObject . castForeignPtr . unInfoBar
   unsafeCastGObject = InfoBar . castForeignPtr . unGObject
@@ -3557,34 +3127,6 @@ castToInfoBar = castTo gTypeInfoBar "InfoBar"
 gTypeInfoBar :: GType
 gTypeInfoBar =
   {# call fun unsafe gtk_info_bar_get_type #}
-
--- ********************************************************************** Combo
-
-{#pointer *GtkCombo as Combo foreign newtype #} deriving (Eq,Ord)
-
-mkCombo = (Combo, objectUnrefFromMainloop)
-unCombo (Combo o) = o
-
-class HBoxClass o => ComboClass o
-toCombo :: ComboClass o => o -> Combo
-toCombo = unsafeCastGObject . toGObject
-
-instance ComboClass Combo
-instance HBoxClass Combo
-instance BoxClass Combo
-instance ContainerClass Combo
-instance WidgetClass Combo
-instance ObjectClass Combo
-instance GObjectClass Combo where
-  toGObject = GObject . castForeignPtr . unCombo
-  unsafeCastGObject = Combo . castForeignPtr . unGObject
-
-castToCombo :: GObjectClass obj => obj -> Combo
-castToCombo = castTo gTypeCombo "Combo"
-
-gTypeCombo :: GType
-gTypeCombo =
-  {# call fun unsafe gtk_combo_get_type #}
 
 -- ********************************************************** FileChooserButton
 
@@ -3602,7 +3144,6 @@ instance HBoxClass FileChooserButton
 instance BoxClass FileChooserButton
 instance ContainerClass FileChooserButton
 instance WidgetClass FileChooserButton
-instance ObjectClass FileChooserButton
 instance GObjectClass FileChooserButton where
   toGObject = GObject . castForeignPtr . unFileChooserButton
   unsafeCastGObject = FileChooserButton . castForeignPtr . unGObject
@@ -3630,7 +3171,6 @@ instance HBoxClass Statusbar
 instance BoxClass Statusbar
 instance ContainerClass Statusbar
 instance WidgetClass Statusbar
-instance ObjectClass Statusbar
 instance GObjectClass Statusbar where
   toGObject = GObject . castForeignPtr . unStatusbar
   unsafeCastGObject = Statusbar . castForeignPtr . unGObject
@@ -3641,59 +3181,6 @@ castToStatusbar = castTo gTypeStatusbar "Statusbar"
 gTypeStatusbar :: GType
 gTypeStatusbar =
   {# call fun unsafe gtk_statusbar_get_type #}
-
--- ********************************************************************** CList
-
-{#pointer *GtkCList as CList foreign newtype #} deriving (Eq,Ord)
-
-mkCList = (CList, objectUnrefFromMainloop)
-unCList (CList o) = o
-
-class ContainerClass o => CListClass o
-toCList :: CListClass o => o -> CList
-toCList = unsafeCastGObject . toGObject
-
-instance CListClass CList
-instance ContainerClass CList
-instance WidgetClass CList
-instance ObjectClass CList
-instance GObjectClass CList where
-  toGObject = GObject . castForeignPtr . unCList
-  unsafeCastGObject = CList . castForeignPtr . unGObject
-
-castToCList :: GObjectClass obj => obj -> CList
-castToCList = castTo gTypeCList "CList"
-
-gTypeCList :: GType
-gTypeCList =
-  {# call fun unsafe gtk_clist_get_type #}
-
--- ********************************************************************** CTree
-
-{#pointer *GtkCTree as CTree foreign newtype #} deriving (Eq,Ord)
-
-mkCTree = (CTree, objectUnrefFromMainloop)
-unCTree (CTree o) = o
-
-class CListClass o => CTreeClass o
-toCTree :: CTreeClass o => o -> CTree
-toCTree = unsafeCastGObject . toGObject
-
-instance CTreeClass CTree
-instance CListClass CTree
-instance ContainerClass CTree
-instance WidgetClass CTree
-instance ObjectClass CTree
-instance GObjectClass CTree where
-  toGObject = GObject . castForeignPtr . unCTree
-  unsafeCastGObject = CTree . castForeignPtr . unGObject
-
-castToCTree :: GObjectClass obj => obj -> CTree
-castToCTree = castTo gTypeCTree "CTree"
-
-gTypeCTree :: GType
-gTypeCTree =
-  {# call fun unsafe gtk_ctree_get_type #}
 
 -- ********************************************************************** Fixed
 
@@ -3709,7 +3196,6 @@ toFixed = unsafeCastGObject . toGObject
 instance FixedClass Fixed
 instance ContainerClass Fixed
 instance WidgetClass Fixed
-instance ObjectClass Fixed
 instance GObjectClass Fixed where
   toGObject = GObject . castForeignPtr . unFixed
   unsafeCastGObject = Fixed . castForeignPtr . unGObject
@@ -3735,7 +3221,6 @@ toPaned = unsafeCastGObject . toGObject
 instance PanedClass Paned
 instance ContainerClass Paned
 instance WidgetClass Paned
-instance ObjectClass Paned
 instance GObjectClass Paned where
   toGObject = GObject . castForeignPtr . unPaned
   unsafeCastGObject = Paned . castForeignPtr . unGObject
@@ -3762,7 +3247,6 @@ instance HPanedClass HPaned
 instance PanedClass HPaned
 instance ContainerClass HPaned
 instance WidgetClass HPaned
-instance ObjectClass HPaned
 instance GObjectClass HPaned where
   toGObject = GObject . castForeignPtr . unHPaned
   unsafeCastGObject = HPaned . castForeignPtr . unGObject
@@ -3789,7 +3273,6 @@ instance VPanedClass VPaned
 instance PanedClass VPaned
 instance ContainerClass VPaned
 instance WidgetClass VPaned
-instance ObjectClass VPaned
 instance GObjectClass VPaned where
   toGObject = GObject . castForeignPtr . unVPaned
   unsafeCastGObject = VPaned . castForeignPtr . unGObject
@@ -3815,7 +3298,6 @@ toIconView = unsafeCastGObject . toGObject
 instance IconViewClass IconView
 instance ContainerClass IconView
 instance WidgetClass IconView
-instance ObjectClass IconView
 instance GObjectClass IconView where
   toGObject = GObject . castForeignPtr . unIconView
   unsafeCastGObject = IconView . castForeignPtr . unGObject
@@ -3841,7 +3323,6 @@ toLayout = unsafeCastGObject . toGObject
 instance LayoutClass Layout
 instance ContainerClass Layout
 instance WidgetClass Layout
-instance ObjectClass Layout
 instance GObjectClass Layout where
   toGObject = GObject . castForeignPtr . unLayout
   unsafeCastGObject = Layout . castForeignPtr . unGObject
@@ -3852,32 +3333,6 @@ castToLayout = castTo gTypeLayout "Layout"
 gTypeLayout :: GType
 gTypeLayout =
   {# call fun unsafe gtk_layout_get_type #}
-
--- *********************************************************************** List
-
-{#pointer *GtkList as List foreign newtype #} deriving (Eq,Ord)
-
-mkList = (List, objectUnrefFromMainloop)
-unList (List o) = o
-
-class ContainerClass o => ListClass o
-toList :: ListClass o => o -> List
-toList = unsafeCastGObject . toGObject
-
-instance ListClass List
-instance ContainerClass List
-instance WidgetClass List
-instance ObjectClass List
-instance GObjectClass List where
-  toGObject = GObject . castForeignPtr . unList
-  unsafeCastGObject = List . castForeignPtr . unGObject
-
-castToList :: GObjectClass obj => obj -> List
-castToList = castTo gTypeList "List"
-
-gTypeList :: GType
-gTypeList =
-  {# call fun unsafe gtk_list_get_type #}
 
 -- ****************************************************************** MenuShell
 
@@ -3893,7 +3348,6 @@ toMenuShell = unsafeCastGObject . toGObject
 instance MenuShellClass MenuShell
 instance ContainerClass MenuShell
 instance WidgetClass MenuShell
-instance ObjectClass MenuShell
 instance GObjectClass MenuShell where
   toGObject = GObject . castForeignPtr . unMenuShell
   unsafeCastGObject = MenuShell . castForeignPtr . unGObject
@@ -3920,7 +3374,6 @@ instance MenuClass Menu
 instance MenuShellClass Menu
 instance ContainerClass Menu
 instance WidgetClass Menu
-instance ObjectClass Menu
 instance GObjectClass Menu where
   toGObject = GObject . castForeignPtr . unMenu
   unsafeCastGObject = Menu . castForeignPtr . unGObject
@@ -3948,7 +3401,6 @@ instance MenuClass RecentChooserMenu
 instance MenuShellClass RecentChooserMenu
 instance ContainerClass RecentChooserMenu
 instance WidgetClass RecentChooserMenu
-instance ObjectClass RecentChooserMenu
 instance GObjectClass RecentChooserMenu where
   toGObject = GObject . castForeignPtr . unRecentChooserMenu
   unsafeCastGObject = RecentChooserMenu . castForeignPtr . unGObject
@@ -3975,7 +3427,6 @@ instance MenuBarClass MenuBar
 instance MenuShellClass MenuBar
 instance ContainerClass MenuBar
 instance WidgetClass MenuBar
-instance ObjectClass MenuBar
 instance GObjectClass MenuBar where
   toGObject = GObject . castForeignPtr . unMenuBar
   unsafeCastGObject = MenuBar . castForeignPtr . unGObject
@@ -4001,7 +3452,6 @@ toNotebook = unsafeCastGObject . toGObject
 instance NotebookClass Notebook
 instance ContainerClass Notebook
 instance WidgetClass Notebook
-instance ObjectClass Notebook
 instance GObjectClass Notebook where
   toGObject = GObject . castForeignPtr . unNotebook
   unsafeCastGObject = Notebook . castForeignPtr . unGObject
@@ -4027,7 +3477,6 @@ toSocket = unsafeCastGObject . toGObject
 instance SocketClass Socket
 instance ContainerClass Socket
 instance WidgetClass Socket
-instance ObjectClass Socket
 instance GObjectClass Socket where
   toGObject = GObject . castForeignPtr . unSocket
   unsafeCastGObject = Socket . castForeignPtr . unGObject
@@ -4053,7 +3502,6 @@ toTable = unsafeCastGObject . toGObject
 instance TableClass Table
 instance ContainerClass Table
 instance WidgetClass Table
-instance ObjectClass Table
 instance GObjectClass Table where
   toGObject = GObject . castForeignPtr . unTable
   unsafeCastGObject = Table . castForeignPtr . unGObject
@@ -4079,7 +3527,6 @@ toTextView = unsafeCastGObject . toGObject
 instance TextViewClass TextView
 instance ContainerClass TextView
 instance WidgetClass TextView
-instance ObjectClass TextView
 instance GObjectClass TextView where
   toGObject = GObject . castForeignPtr . unTextView
   unsafeCastGObject = TextView . castForeignPtr . unGObject
@@ -4105,7 +3552,6 @@ toToolbar = unsafeCastGObject . toGObject
 instance ToolbarClass Toolbar
 instance ContainerClass Toolbar
 instance WidgetClass Toolbar
-instance ObjectClass Toolbar
 instance GObjectClass Toolbar where
   toGObject = GObject . castForeignPtr . unToolbar
   unsafeCastGObject = Toolbar . castForeignPtr . unGObject
@@ -4131,7 +3577,6 @@ toTreeView = unsafeCastGObject . toGObject
 instance TreeViewClass TreeView
 instance ContainerClass TreeView
 instance WidgetClass TreeView
-instance ObjectClass TreeView
 instance GObjectClass TreeView where
   toGObject = GObject . castForeignPtr . unTreeView
   unsafeCastGObject = TreeView . castForeignPtr . unGObject
@@ -4156,7 +3601,6 @@ toCalendar = unsafeCastGObject . toGObject
 
 instance CalendarClass Calendar
 instance WidgetClass Calendar
-instance ObjectClass Calendar
 instance GObjectClass Calendar where
   toGObject = GObject . castForeignPtr . unCalendar
   unsafeCastGObject = Calendar . castForeignPtr . unGObject
@@ -4181,7 +3625,6 @@ toCellView = unsafeCastGObject . toGObject
 
 instance CellViewClass CellView
 instance WidgetClass CellView
-instance ObjectClass CellView
 instance GObjectClass CellView where
   toGObject = GObject . castForeignPtr . unCellView
   unsafeCastGObject = CellView . castForeignPtr . unGObject
@@ -4206,7 +3649,6 @@ toDrawingArea = unsafeCastGObject . toGObject
 
 instance DrawingAreaClass DrawingArea
 instance WidgetClass DrawingArea
-instance ObjectClass DrawingArea
 instance GObjectClass DrawingArea where
   toGObject = GObject . castForeignPtr . unDrawingArea
   unsafeCastGObject = DrawingArea . castForeignPtr . unGObject
@@ -4232,7 +3674,6 @@ toSpinner = unsafeCastGObject . toGObject
 instance SpinnerClass Spinner
 instance DrawingAreaClass Spinner
 instance WidgetClass Spinner
-instance ObjectClass Spinner
 instance GObjectClass Spinner where
   toGObject = GObject . castForeignPtr . unSpinner
   unsafeCastGObject = Spinner . castForeignPtr . unGObject
@@ -4257,7 +3698,6 @@ toEntry = unsafeCastGObject . toGObject
 
 instance EntryClass Entry
 instance WidgetClass Entry
-instance ObjectClass Entry
 instance GObjectClass Entry where
   toGObject = GObject . castForeignPtr . unEntry
   unsafeCastGObject = Entry . castForeignPtr . unGObject
@@ -4283,7 +3723,6 @@ toSpinButton = unsafeCastGObject . toGObject
 instance SpinButtonClass SpinButton
 instance EntryClass SpinButton
 instance WidgetClass SpinButton
-instance ObjectClass SpinButton
 instance GObjectClass SpinButton where
   toGObject = GObject . castForeignPtr . unSpinButton
   unsafeCastGObject = SpinButton . castForeignPtr . unGObject
@@ -4294,83 +3733,6 @@ castToSpinButton = castTo gTypeSpinButton "SpinButton"
 gTypeSpinButton :: GType
 gTypeSpinButton =
   {# call fun unsafe gtk_spin_button_get_type #}
-
--- ********************************************************************** Ruler
-
-{#pointer *GtkRuler as Ruler foreign newtype #} deriving (Eq,Ord)
-
-mkRuler = (Ruler, objectUnrefFromMainloop)
-unRuler (Ruler o) = o
-
-class WidgetClass o => RulerClass o
-toRuler :: RulerClass o => o -> Ruler
-toRuler = unsafeCastGObject . toGObject
-
-instance RulerClass Ruler
-instance WidgetClass Ruler
-instance ObjectClass Ruler
-instance GObjectClass Ruler where
-  toGObject = GObject . castForeignPtr . unRuler
-  unsafeCastGObject = Ruler . castForeignPtr . unGObject
-
-castToRuler :: GObjectClass obj => obj -> Ruler
-castToRuler = castTo gTypeRuler "Ruler"
-
-gTypeRuler :: GType
-gTypeRuler =
-  {# call fun unsafe gtk_ruler_get_type #}
-
--- ********************************************************************* HRuler
-
-{#pointer *GtkHRuler as HRuler foreign newtype #} deriving (Eq,Ord)
-
-mkHRuler = (HRuler, objectUnrefFromMainloop)
-unHRuler (HRuler o) = o
-
-class RulerClass o => HRulerClass o
-toHRuler :: HRulerClass o => o -> HRuler
-toHRuler = unsafeCastGObject . toGObject
-
-instance HRulerClass HRuler
-instance RulerClass HRuler
-instance WidgetClass HRuler
-instance ObjectClass HRuler
-instance GObjectClass HRuler where
-  toGObject = GObject . castForeignPtr . unHRuler
-  unsafeCastGObject = HRuler . castForeignPtr . unGObject
-
-castToHRuler :: GObjectClass obj => obj -> HRuler
-castToHRuler = castTo gTypeHRuler "HRuler"
-
-gTypeHRuler :: GType
-gTypeHRuler =
-  {# call fun unsafe gtk_hruler_get_type #}
-
--- ********************************************************************* VRuler
-
-{#pointer *GtkVRuler as VRuler foreign newtype #} deriving (Eq,Ord)
-
-mkVRuler = (VRuler, objectUnrefFromMainloop)
-unVRuler (VRuler o) = o
-
-class RulerClass o => VRulerClass o
-toVRuler :: VRulerClass o => o -> VRuler
-toVRuler = unsafeCastGObject . toGObject
-
-instance VRulerClass VRuler
-instance RulerClass VRuler
-instance WidgetClass VRuler
-instance ObjectClass VRuler
-instance GObjectClass VRuler where
-  toGObject = GObject . castForeignPtr . unVRuler
-  unsafeCastGObject = VRuler . castForeignPtr . unGObject
-
-castToVRuler :: GObjectClass obj => obj -> VRuler
-castToVRuler = castTo gTypeVRuler "VRuler"
-
-gTypeVRuler :: GType
-gTypeVRuler =
-  {# call fun unsafe gtk_vruler_get_type #}
 
 -- ********************************************************************** Range
 
@@ -4385,7 +3747,6 @@ toRange = unsafeCastGObject . toGObject
 
 instance RangeClass Range
 instance WidgetClass Range
-instance ObjectClass Range
 instance GObjectClass Range where
   toGObject = GObject . castForeignPtr . unRange
   unsafeCastGObject = Range . castForeignPtr . unGObject
@@ -4411,7 +3772,6 @@ toScale = unsafeCastGObject . toGObject
 instance ScaleClass Scale
 instance RangeClass Scale
 instance WidgetClass Scale
-instance ObjectClass Scale
 instance GObjectClass Scale where
   toGObject = GObject . castForeignPtr . unScale
   unsafeCastGObject = Scale . castForeignPtr . unGObject
@@ -4438,7 +3798,6 @@ instance HScaleClass HScale
 instance ScaleClass HScale
 instance RangeClass HScale
 instance WidgetClass HScale
-instance ObjectClass HScale
 instance GObjectClass HScale where
   toGObject = GObject . castForeignPtr . unHScale
   unsafeCastGObject = HScale . castForeignPtr . unGObject
@@ -4465,7 +3824,6 @@ instance VScaleClass VScale
 instance ScaleClass VScale
 instance RangeClass VScale
 instance WidgetClass VScale
-instance ObjectClass VScale
 instance GObjectClass VScale where
   toGObject = GObject . castForeignPtr . unVScale
   unsafeCastGObject = VScale . castForeignPtr . unGObject
@@ -4491,7 +3849,6 @@ toScrollbar = unsafeCastGObject . toGObject
 instance ScrollbarClass Scrollbar
 instance RangeClass Scrollbar
 instance WidgetClass Scrollbar
-instance ObjectClass Scrollbar
 instance GObjectClass Scrollbar where
   toGObject = GObject . castForeignPtr . unScrollbar
   unsafeCastGObject = Scrollbar . castForeignPtr . unGObject
@@ -4518,7 +3875,6 @@ instance HScrollbarClass HScrollbar
 instance ScrollbarClass HScrollbar
 instance RangeClass HScrollbar
 instance WidgetClass HScrollbar
-instance ObjectClass HScrollbar
 instance GObjectClass HScrollbar where
   toGObject = GObject . castForeignPtr . unHScrollbar
   unsafeCastGObject = HScrollbar . castForeignPtr . unGObject
@@ -4545,7 +3901,6 @@ instance VScrollbarClass VScrollbar
 instance ScrollbarClass VScrollbar
 instance RangeClass VScrollbar
 instance WidgetClass VScrollbar
-instance ObjectClass VScrollbar
 instance GObjectClass VScrollbar where
   toGObject = GObject . castForeignPtr . unVScrollbar
   unsafeCastGObject = VScrollbar . castForeignPtr . unGObject
@@ -4570,7 +3925,6 @@ toSeparator = unsafeCastGObject . toGObject
 
 instance SeparatorClass Separator
 instance WidgetClass Separator
-instance ObjectClass Separator
 instance GObjectClass Separator where
   toGObject = GObject . castForeignPtr . unSeparator
   unsafeCastGObject = Separator . castForeignPtr . unGObject
@@ -4596,7 +3950,6 @@ toHSeparator = unsafeCastGObject . toGObject
 instance HSeparatorClass HSeparator
 instance SeparatorClass HSeparator
 instance WidgetClass HSeparator
-instance ObjectClass HSeparator
 instance GObjectClass HSeparator where
   toGObject = GObject . castForeignPtr . unHSeparator
   unsafeCastGObject = HSeparator . castForeignPtr . unGObject
@@ -4622,7 +3975,6 @@ toVSeparator = unsafeCastGObject . toGObject
 instance VSeparatorClass VSeparator
 instance SeparatorClass VSeparator
 instance WidgetClass VSeparator
-instance ObjectClass VSeparator
 instance GObjectClass VSeparator where
   toGObject = GObject . castForeignPtr . unVSeparator
   unsafeCastGObject = VSeparator . castForeignPtr . unGObject
@@ -4647,7 +3999,6 @@ toInvisible = unsafeCastGObject . toGObject
 
 instance InvisibleClass Invisible
 instance WidgetClass Invisible
-instance ObjectClass Invisible
 instance GObjectClass Invisible where
   toGObject = GObject . castForeignPtr . unInvisible
   unsafeCastGObject = Invisible . castForeignPtr . unGObject
@@ -4658,31 +4009,6 @@ castToInvisible = castTo gTypeInvisible "Invisible"
 gTypeInvisible :: GType
 gTypeInvisible =
   {# call fun unsafe gtk_invisible_get_type #}
-
--- ******************************************************************** Preview
-
-{#pointer *GtkPreview as Preview foreign newtype #} deriving (Eq,Ord)
-
-mkPreview = (Preview, objectUnrefFromMainloop)
-unPreview (Preview o) = o
-
-class WidgetClass o => PreviewClass o
-toPreview :: PreviewClass o => o -> Preview
-toPreview = unsafeCastGObject . toGObject
-
-instance PreviewClass Preview
-instance WidgetClass Preview
-instance ObjectClass Preview
-instance GObjectClass Preview where
-  toGObject = GObject . castForeignPtr . unPreview
-  unsafeCastGObject = Preview . castForeignPtr . unGObject
-
-castToPreview :: GObjectClass obj => obj -> Preview
-castToPreview = castTo gTypePreview "Preview"
-
-gTypePreview :: GType
-gTypePreview =
-  {# call fun unsafe gtk_preview_get_type #}
 
 -- **************************************************************** ProgressBar
 
@@ -4697,7 +4023,6 @@ toProgressBar = unsafeCastGObject . toGObject
 
 instance ProgressBarClass ProgressBar
 instance WidgetClass ProgressBar
-instance ObjectClass ProgressBar
 instance GObjectClass ProgressBar where
   toGObject = GObject . castForeignPtr . unProgressBar
   unsafeCastGObject = ProgressBar . castForeignPtr . unGObject
@@ -4716,12 +4041,11 @@ gTypeProgressBar =
 mkAdjustment = (Adjustment, objectUnrefFromMainloop)
 unAdjustment (Adjustment o) = o
 
-class ObjectClass o => AdjustmentClass o
+class GObjectClass o => AdjustmentClass o
 toAdjustment :: AdjustmentClass o => o -> Adjustment
 toAdjustment = unsafeCastGObject . toGObject
 
 instance AdjustmentClass Adjustment
-instance ObjectClass Adjustment
 instance GObjectClass Adjustment where
   toGObject = GObject . castForeignPtr . unAdjustment
   unsafeCastGObject = Adjustment . castForeignPtr . unGObject
@@ -4740,12 +4064,11 @@ gTypeAdjustment =
 mkIMContext = (IMContext, objectUnrefFromMainloop)
 unIMContext (IMContext o) = o
 
-class ObjectClass o => IMContextClass o
+class GObjectClass o => IMContextClass o
 toIMContext :: IMContextClass o => o -> IMContext
 toIMContext = unsafeCastGObject . toGObject
 
 instance IMContextClass IMContext
-instance ObjectClass IMContext
 instance GObjectClass IMContext where
   toGObject = GObject . castForeignPtr . unIMContext
   unsafeCastGObject = IMContext . castForeignPtr . unGObject
@@ -4770,7 +4093,6 @@ toIMMulticontext = unsafeCastGObject . toGObject
 
 instance IMMulticontextClass IMMulticontext
 instance IMContextClass IMMulticontext
-instance ObjectClass IMMulticontext
 instance GObjectClass IMMulticontext where
   toGObject = GObject . castForeignPtr . unIMMulticontext
   unsafeCastGObject = IMMulticontext . castForeignPtr . unGObject
@@ -4795,7 +4117,6 @@ toIMContextSimple = unsafeCastGObject . toGObject
 
 instance IMContextSimpleClass IMContextSimple
 instance IMContextClass IMContextSimple
-instance ObjectClass IMContextSimple
 instance GObjectClass IMContextSimple where
   toGObject = GObject . castForeignPtr . unIMContextSimple
   unsafeCastGObject = IMContextSimple . castForeignPtr . unGObject
@@ -4807,54 +4128,6 @@ gTypeIMContextSimple :: GType
 gTypeIMContextSimple =
   {# call fun unsafe gtk_im_context_simple_get_type #}
 
--- **************************************************************** ItemFactory
-
-{#pointer *GtkItemFactory as ItemFactory foreign newtype #} deriving (Eq,Ord)
-
-mkItemFactory = (ItemFactory, objectUnrefFromMainloop)
-unItemFactory (ItemFactory o) = o
-
-class ObjectClass o => ItemFactoryClass o
-toItemFactory :: ItemFactoryClass o => o -> ItemFactory
-toItemFactory = unsafeCastGObject . toGObject
-
-instance ItemFactoryClass ItemFactory
-instance ObjectClass ItemFactory
-instance GObjectClass ItemFactory where
-  toGObject = GObject . castForeignPtr . unItemFactory
-  unsafeCastGObject = ItemFactory . castForeignPtr . unGObject
-
-castToItemFactory :: GObjectClass obj => obj -> ItemFactory
-castToItemFactory = castTo gTypeItemFactory "ItemFactory"
-
-gTypeItemFactory :: GType
-gTypeItemFactory =
-  {# call fun unsafe gtk_item_factory_get_type #}
-
--- ******************************************************************* Tooltips
-
-{#pointer *GtkTooltips as Tooltips foreign newtype #} deriving (Eq,Ord)
-
-mkTooltips = (Tooltips, objectUnrefFromMainloop)
-unTooltips (Tooltips o) = o
-
-class ObjectClass o => TooltipsClass o
-toTooltips :: TooltipsClass o => o -> Tooltips
-toTooltips = unsafeCastGObject . toGObject
-
-instance TooltipsClass Tooltips
-instance ObjectClass Tooltips
-instance GObjectClass Tooltips where
-  toGObject = GObject . castForeignPtr . unTooltips
-  unsafeCastGObject = Tooltips . castForeignPtr . unGObject
-
-castToTooltips :: GObjectClass obj => obj -> Tooltips
-castToTooltips = castTo gTypeTooltips "Tooltips"
-
-gTypeTooltips :: GType
-gTypeTooltips =
-  {# call fun unsafe gtk_tooltips_get_type #}
-
 -- ************************************************************* TreeViewColumn
 
 {#pointer *GtkTreeViewColumn as TreeViewColumn foreign newtype #} deriving (Eq,Ord)
@@ -4862,12 +4135,11 @@ gTypeTooltips =
 mkTreeViewColumn = (TreeViewColumn, objectUnrefFromMainloop)
 unTreeViewColumn (TreeViewColumn o) = o
 
-class ObjectClass o => TreeViewColumnClass o
+class GObjectClass o => TreeViewColumnClass o
 toTreeViewColumn :: TreeViewColumnClass o => o -> TreeViewColumn
 toTreeViewColumn = unsafeCastGObject . toGObject
 
 instance TreeViewColumnClass TreeViewColumn
-instance ObjectClass TreeViewColumn
 instance GObjectClass TreeViewColumn where
   toGObject = GObject . castForeignPtr . unTreeViewColumn
   unsafeCastGObject = TreeViewColumn . castForeignPtr . unGObject
@@ -4886,12 +4158,11 @@ gTypeTreeViewColumn =
 mkCellRenderer = (CellRenderer, objectUnrefFromMainloop)
 unCellRenderer (CellRenderer o) = o
 
-class ObjectClass o => CellRendererClass o
+class GObjectClass o => CellRendererClass o
 toCellRenderer :: CellRendererClass o => o -> CellRenderer
 toCellRenderer = unsafeCastGObject . toGObject
 
 instance CellRendererClass CellRenderer
-instance ObjectClass CellRenderer
 instance GObjectClass CellRenderer where
   toGObject = GObject . castForeignPtr . unCellRenderer
   unsafeCastGObject = CellRenderer . castForeignPtr . unGObject
@@ -4916,7 +4187,6 @@ toCellRendererSpinner = unsafeCastGObject . toGObject
 
 instance CellRendererSpinnerClass CellRendererSpinner
 instance CellRendererClass CellRendererSpinner
-instance ObjectClass CellRendererSpinner
 instance GObjectClass CellRendererSpinner where
   toGObject = GObject . castForeignPtr . unCellRendererSpinner
   unsafeCastGObject = CellRendererSpinner . castForeignPtr . unGObject
@@ -4941,7 +4211,6 @@ toCellRendererPixbuf = unsafeCastGObject . toGObject
 
 instance CellRendererPixbufClass CellRendererPixbuf
 instance CellRendererClass CellRendererPixbuf
-instance ObjectClass CellRendererPixbuf
 instance GObjectClass CellRendererPixbuf where
   toGObject = GObject . castForeignPtr . unCellRendererPixbuf
   unsafeCastGObject = CellRendererPixbuf . castForeignPtr . unGObject
@@ -4966,7 +4235,6 @@ toCellRendererText = unsafeCastGObject . toGObject
 
 instance CellRendererTextClass CellRendererText
 instance CellRendererClass CellRendererText
-instance ObjectClass CellRendererText
 instance GObjectClass CellRendererText where
   toGObject = GObject . castForeignPtr . unCellRendererText
   unsafeCastGObject = CellRendererText . castForeignPtr . unGObject
@@ -4992,7 +4260,6 @@ toCellRendererAccel = unsafeCastGObject . toGObject
 instance CellRendererAccelClass CellRendererAccel
 instance CellRendererTextClass CellRendererAccel
 instance CellRendererClass CellRendererAccel
-instance ObjectClass CellRendererAccel
 instance GObjectClass CellRendererAccel where
   toGObject = GObject . castForeignPtr . unCellRendererAccel
   unsafeCastGObject = CellRendererAccel . castForeignPtr . unGObject
@@ -5018,7 +4285,6 @@ toCellRendererSpin = unsafeCastGObject . toGObject
 instance CellRendererSpinClass CellRendererSpin
 instance CellRendererTextClass CellRendererSpin
 instance CellRendererClass CellRendererSpin
-instance ObjectClass CellRendererSpin
 instance GObjectClass CellRendererSpin where
   toGObject = GObject . castForeignPtr . unCellRendererSpin
   unsafeCastGObject = CellRendererSpin . castForeignPtr . unGObject
@@ -5044,7 +4310,6 @@ toCellRendererCombo = unsafeCastGObject . toGObject
 instance CellRendererComboClass CellRendererCombo
 instance CellRendererTextClass CellRendererCombo
 instance CellRendererClass CellRendererCombo
-instance ObjectClass CellRendererCombo
 instance GObjectClass CellRendererCombo where
   toGObject = GObject . castForeignPtr . unCellRendererCombo
   unsafeCastGObject = CellRendererCombo . castForeignPtr . unGObject
@@ -5069,7 +4334,6 @@ toCellRendererToggle = unsafeCastGObject . toGObject
 
 instance CellRendererToggleClass CellRendererToggle
 instance CellRendererClass CellRendererToggle
-instance ObjectClass CellRendererToggle
 instance GObjectClass CellRendererToggle where
   toGObject = GObject . castForeignPtr . unCellRendererToggle
   unsafeCastGObject = CellRendererToggle . castForeignPtr . unGObject
@@ -5094,7 +4358,6 @@ toCellRendererProgress = unsafeCastGObject . toGObject
 
 instance CellRendererProgressClass CellRendererProgress
 instance CellRendererClass CellRendererProgress
-instance ObjectClass CellRendererProgress
 instance GObjectClass CellRendererProgress where
   toGObject = GObject . castForeignPtr . unCellRendererProgress
   unsafeCastGObject = CellRendererProgress . castForeignPtr . unGObject
@@ -5113,12 +4376,11 @@ gTypeCellRendererProgress =
 mkFileFilter = (FileFilter, objectUnrefFromMainloop)
 unFileFilter (FileFilter o) = o
 
-class ObjectClass o => FileFilterClass o
+class GObjectClass o => FileFilterClass o
 toFileFilter :: FileFilterClass o => o -> FileFilter
 toFileFilter = unsafeCastGObject . toGObject
 
 instance FileFilterClass FileFilter
-instance ObjectClass FileFilter
 instance GObjectClass FileFilter where
   toGObject = GObject . castForeignPtr . unFileFilter
   unsafeCastGObject = FileFilter . castForeignPtr . unGObject
@@ -5137,12 +4399,11 @@ gTypeFileFilter =
 mkBuilder = (Builder, objectUnrefFromMainloop)
 unBuilder (Builder o) = o
 
-class ObjectClass o => BuilderClass o
+class GObjectClass o => BuilderClass o
 toBuilder :: BuilderClass o => o -> Builder
 toBuilder = unsafeCastGObject . toGObject
 
 instance BuilderClass Builder
-instance ObjectClass Builder
 instance GObjectClass Builder where
   toGObject = GObject . castForeignPtr . unBuilder
   unsafeCastGObject = Builder . castForeignPtr . unGObject
@@ -5153,6 +4414,75 @@ castToBuilder = castTo gTypeBuilder "Builder"
 gTypeBuilder :: GType
 gTypeBuilder =
   {# call fun unsafe gtk_builder_get_type #}
+
+-- *************************************************************** StyleContext
+
+{#pointer *GtkStyleContext as StyleContext foreign newtype #} deriving (Eq,Ord)
+
+mkStyleContext = (StyleContext, objectUnrefFromMainloop)
+unStyleContext (StyleContext o) = o
+
+class GObjectClass o => StyleContextClass o
+toStyleContext :: StyleContextClass o => o -> StyleContext
+toStyleContext = unsafeCastGObject . toGObject
+
+instance StyleContextClass StyleContext
+instance GObjectClass StyleContext where
+  toGObject = GObject . castForeignPtr . unStyleContext
+  unsafeCastGObject = StyleContext . castForeignPtr . unGObject
+
+castToStyleContext :: GObjectClass obj => obj -> StyleContext
+castToStyleContext = castTo gTypeStyleContext "StyleContext"
+
+gTypeStyleContext :: GType
+gTypeStyleContext =
+  {# call fun unsafe gtk_style_context_get_type #}
+
+-- ************************************************************** StyleProvider
+
+{#pointer *GtkStyleProvider as StyleProvider foreign newtype #} deriving (Eq,Ord)
+
+mkStyleProvider = (StyleProvider, objectUnrefFromMainloop)
+unStyleProvider (StyleProvider o) = o
+
+class GObjectClass o => StyleProviderClass o
+toStyleProvider :: StyleProviderClass o => o -> StyleProvider
+toStyleProvider = unsafeCastGObject . toGObject
+
+instance StyleProviderClass StyleProvider
+instance GObjectClass StyleProvider where
+  toGObject = GObject . castForeignPtr . unStyleProvider
+  unsafeCastGObject = StyleProvider . castForeignPtr . unGObject
+
+castToStyleProvider :: GObjectClass obj => obj -> StyleProvider
+castToStyleProvider = castTo gTypeStyleProvider "StyleProvider"
+
+gTypeStyleProvider :: GType
+gTypeStyleProvider =
+  {# call fun unsafe gtk_style_provider_get_type #}
+
+-- **************************************************************** CssProvider
+
+{#pointer *GtkCssProvider as CssProvider foreign newtype #} deriving (Eq,Ord)
+
+mkCssProvider = (CssProvider, objectUnrefFromMainloop)
+unCssProvider (CssProvider o) = o
+
+class GObjectClass o => CssProviderClass o
+toCssProvider :: CssProviderClass o => o -> CssProvider
+toCssProvider = unsafeCastGObject . toGObject
+
+instance CssProviderClass CssProvider
+instance GObjectClass CssProvider where
+  toGObject = GObject . castForeignPtr . unCssProvider
+  unsafeCastGObject = CssProvider . castForeignPtr . unGObject
+
+castToCssProvider :: GObjectClass obj => obj -> CssProvider
+castToCssProvider = castTo gTypeCssProvider "CssProvider"
+
+gTypeCssProvider :: GType
+gTypeCssProvider =
+  {# call fun unsafe gtk_css_provider_get_type #}
 
 -- ***************************************************************** CellLayout
 
@@ -5804,27 +5134,4 @@ castToFileChooser = castTo gTypeFileChooser "FileChooser"
 gTypeFileChooser :: GType
 gTypeFileChooser =
   {# call fun unsafe gtk_file_chooser_get_type #}
-
--- ************************************************************************* GC
-
-{#pointer *GdkGC as GC foreign newtype #} deriving (Eq,Ord)
-
-mkGC = (GC, objectUnrefFromMainloop)
-unGC (GC o) = o
-
-class GObjectClass o => GCClass o
-toGC :: GCClass o => o -> GC
-toGC = unsafeCastGObject . toGObject
-
-instance GCClass GC
-instance GObjectClass GC where
-  toGObject = GObject . castForeignPtr . unGC
-  unsafeCastGObject = GC . castForeignPtr . unGObject
-
-castToGC :: GObjectClass obj => obj -> GC
-castToGC = castTo gTypeGC "GC"
-
-gTypeGC :: GType
-gTypeGC =
-  {# call fun unsafe gdk_gc_get_type #}
 
